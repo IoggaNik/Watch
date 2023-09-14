@@ -1,0 +1,2 @@
+*{font-family:sans-serif;margin:0;padding:0}body{background:linear-gradient(90deg,red,orange)}.App{align-items:center;height:99vh;justify-content:center;width:100vw}.App,.Time{display:flex}.Time{gap:15px}.Time div{background-color:#fff;border-radius:5px;flex:1 1 auto;padding:10px}.Time div,.del{font-size:80px}.hours{left:4px}.hours,.minutes{position:relative}.minutes{left:2px}.seconds{left:1px;position:relative}@media (min-width:320px) and (max-width:428px){.Time{display:block;text-align:center}}
+/*# sourceMappingURL=main.56c9b754.css.map*/
