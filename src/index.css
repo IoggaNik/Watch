@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, red, orange);
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 99vh;
+}
+
+.Time {
+    display: flex;
+    gap: 15px;
+}
+
+.Time div {
+    background-color: #fff;
+    font-size: 80px;
+    border-radius: 5px;
+    padding: 10px;
+    flex: 1 1 auto;
+}
+
+.del {
+    font-size: 80px;
+}
+
+.hours {
+    position: relative;
+    left: 4px;
+}
+
+.minutes {
+    position: relative;
+    left: 2px;
+}
+
+.seconds {
+    position: relative;
+    left: 1px;
+}
+
+@media (min-width: 320px) and (max-width: 428px) {
+    .Time {
+        display: block;
+        text-align: center;
+    }
+}
